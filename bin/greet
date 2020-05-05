@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 puts "Hi! I'm HAL, what's your name?"
-name = get_variable_from_file("./lib/greeting.rb", "name")
+name = get.strip
